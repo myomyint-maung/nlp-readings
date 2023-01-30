@@ -1,2 +1,2 @@
 # nlp-readings
-My paper reading assignments for NLP at AIT
+Summaries of the papers I read for the NLP course at Asian Institute of Technology
