@@ -5,7 +5,7 @@
 ### Token Dropping for Efficient BERT Pretraining (ACL 2022)
 #### by Le Hou, Richard Yuanzhe Pang, Tianyi Zhou, Yuexin Wu, Xinying Song, Xiaodan Song, and Denny Zhou
 
-| Problem | To accelerate the pretraining of computaionally expensive BERT models without degrading their performance on downstream tasks |
-| :--- |  |
-| Key Related Works| 1. |
-| :--- |  |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
