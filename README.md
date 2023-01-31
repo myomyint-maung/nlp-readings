@@ -6,6 +6,6 @@
 #### by Le Hou, Richard Yuanzhe Pang, Tianyi Zhou, Yuexin Wu, Xinying Song, Xiaodan Song, and Denny Zhou
 
 | Problem | To accelerate the pretraining of computaionally expensive BERT models without degrading their performance on downstream tasks |
-| Key Related Works| 1. 
-2.
-3. |
+| :--- |  |
+| Key Related Works| 1. |
+| :--- |  |
