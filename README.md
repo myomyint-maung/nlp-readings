@@ -6,7 +6,7 @@
 #### by Le Hou, Richard Yuanzhe Pang, Tianyi Zhou, Yuexin Wu, Xinying Song, Xiaodan Song, and Denny Zhou
 
 | Problem  | Although BERT-type language models are very effective for several NLP tasks, the pretraining processes of those models are computationally expensive. Therefore, there is a need to make the pretraining costs of such models more efficient without degrading their performance on downstream tasks.  |
-| :---  | ---  |
+| :---  | :---  |
 | Key Related Works  | 1. ALBERT: A lite BERT for self-supervised learning of language representations (Lan et. al., 2020)  |
 |   | 2. Megatron-lm: Training multi-billion parameter language models using model parallelism (Shoeybi et. al., 2019)  |
 |   | 3. Large batch optimization for deep learning: Training bert in 76 minutes (You et. al., 2020)  |
