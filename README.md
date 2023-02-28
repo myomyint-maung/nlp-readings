@@ -29,10 +29,10 @@
 ### A Closer Look at How Fine-tuning Changes BERT (ACL 2022)
 #### by Yichu Zhou and Vivek Srikumar
 
-| Problem  | ...  |
+| Problem  | The effects of fine-tuning on the underlying embedding space of BERT is relatively less understood because the research on those effects is restricted to a few studies that do not comprehensively examine the effects.  |
 | :---  | :---  |
-| Key Related Works  | 1.  |
-|   | 2.  |
-|   | 3.  |
-| Solution  | ...  |
-| Result  | ...  |
+| Key Related Works  | 1. What happens to BERT embeddings during fine-tuning? (Merchant et. al., 2020) |
+|   | 2. On the interplay between fine-tuning and sentence-level probing for linguistic knowledge in pre-trained transformers (Mosbach et. al., 2020) |
+|   | 3. Investigating learning dynamics of BERT fine-tuning (Hao et. al., 2020) |
+| Solution  | To provide a comprehensive understanding of how fine-tuning affects BERT, the authors of the paper propose a new methodology that compares the internal representations of the model before and after fine-tuning using experiments on five NLP tasks, which cover both syntactic and semantic predictions. They evaluate how fine-tuning affects different layers and heads of BERT as well as different NLP tasks.  |
+| Result  | The study finds that fine-tuning impacts significantly on BERT's internal representations. It is observed that the spatial similarity between the traning and test sets for each representation decrease as a result of fine-tuning and that fine-tuning may not always improve performance. Additionally, it is discovered that fine-tuning does not cause arbitrary changes to the representations and that the adjustments of the internal representations are task-dependent.   |
