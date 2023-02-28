@@ -24,3 +24,15 @@
 |   | 3. Multilingual universal sentence encoder for semantic retrieval (Yang et. al., 2019)  |
 | Solution  | This paper presents a new framework for generating sentence embeddings that are language-agnostic, meaning they can be used to represent sentences in any language. The authors propose a modification to the BERT model that enables it to enhance translation ranking performance through the integration of pre-training and dual encoder finetuning, resulting in a cutting-edge performance on bi-text mining. |
 | Result  | The authors show that their method outperforms traditional language-specific models in several cross-lingual sentence classification and semantic similarity tasks. Their models outperform the previous state-of-the-art model, LASER by Artetxe and Schwenk, significantly by acheiving 83.7% bi-text retrieval accuracy over 112 languages to 83.7%, up from 65.5% achieved by LASER. Additionally, their embeddings are competitive in the SentEval sentence embedding transfer learning benchmark.  |
+
+## Assignment 3
+### A Closer Look at How Fine-tuning Changes BERT (ACL 2022)
+#### by Yichu Zhou and Vivek Srikumar
+
+| Problem  | ...  |
+| :---  | :---  |
+| Key Related Works  | 1.  |
+|   | 2.  |
+|   | 3.  |
+| Solution  | ...  |
+| Result  | ...  |
