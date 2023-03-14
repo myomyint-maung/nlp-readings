@@ -36,3 +36,15 @@
 |   | 3. Investigating learning dynamics of BERT fine-tuning (Hao et. al., 2020) |
 | Solution  | To provide a comprehensive understanding of how fine-tuning affects BERT, the authors of the paper propose a new methodology that compares the internal representations of the model before and after fine-tuning using experiments on five NLP tasks, which cover both syntactic and semantic predictions. They evaluate how fine-tuning affects different layers and heads of BERT as well as different NLP tasks.  |
 | Result  | The study finds that fine-tuning impacts significantly on BERT's internal representations. It is observed that the spatial similarity between the traning and test sets for each representation decrease as a result of fine-tuning and that fine-tuning may not always improve performance. Additionally, it is discovered that fine-tuning does not cause arbitrary changes to the representations and that the adjustments of the internal representations are task-dependent.   |
+
+## Assignment 4
+### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018)
+#### by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova
+
+| Problem  | Existing pre-trained language models, especially those using fine-tuning approaches, are unidriectional and that imposes restrictions on the choice of pre-training architectures which could be sub-optimal or even harmful when applied to downstream NLP tasks.   |
+| :---  | :---  |
+| Key Related Works  | 1. Attention Is All You Need ((Vaswani et al., 2017) |
+|   | 2. Deep Contextualized Word Representations ((Peters et al., 2018) |
+|   | 3. Improving Language Understanding with Unsupervised Learning (Radford et al., 2018) |
+| Solution  | The authors of the paper propose a new approach to pre-trained language representations called Bidirectional Encoder Representations from Transformers (BERT) to resolve the constraints of unidirectionality in existing pre-trained language models. By pre-training on a big corpus of text using a masked language model (MLM) objective, which randomly masks some words and needs the model to predict them based on the surrounding context, BERT overcomes the context-dependent nature of language. Additionally, BERT uses a "next sentence prediction" task to train the model to comprehend the connections between sentences.  |
+| Result  | BERT shows to be effective for both feature-based and fine-tuning approaches and outperforms existing state-of-the-art language models on all General Language Understanding Evaluation (GLUE) tasks as well as question answersing and commonsense inference.   |
