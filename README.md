@@ -43,8 +43,8 @@
 
 | Problem  | Existing pre-trained language models are unidriectional and that imposes restrictions on the choice of pre-training architectures which could be sub-optimal or even harmful when applied to downstream NLP tasks.   |
 | :---  | :---  |
-| Key Related Works  | 1. Attention Is All You Need ((Vaswani et al., 2017)  |
-|   | 2. Deep Contextualized Word Representations ((Peters et al., 2018)  |
+| Key Related Works  | 1. Attention Is All You Need (Vaswani et al., 2017)  |
+|   | 2. Deep Contextualized Word Representations (Peters et al., 2018)  |
 |   | 3. Improving Language Understanding with Unsupervised Learning (Radford et al., 2018)  |
 | Solution  | The authors of the paper propose a new approach to pre-trained language representations called Bidirectional Encoder Representations from Transformers (BERT) to resolve the constraints of unidirectionality in existing pre-trained language models. By pre-training on a big corpus of text using a masked language model (MLM) objective, which randomly masks some words and needs the model to predict them based on the surrounding context, BERT overcomes the context-dependent nature of language. Additionally, BERT uses a "next sentence prediction" task to train the model to comprehend the connections between sentences.  |
 | Result  | BERT shows to be effective for both feature-based and fine-tuning approaches and outperforms existing state-of-the-art language models on all General Language Understanding Evaluation (GLUE) tasks as well as question answersing and commonsense inference.   |
