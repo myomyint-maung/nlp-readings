@@ -41,7 +41,7 @@
 ### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018)
 #### by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova
 
-| Problem  | Existing pre-trained language models, especially those using fine-tuning approaches, are unidriectional and that imposes restrictions on the choice of pre-training architectures which could be sub-optimal or even harmful when applied to downstream NLP tasks.   |
+| Problem  | Existing pre-trained language models are unidriectional and that imposes restrictions on the choice of pre-training architectures which could be sub-optimal or even harmful when applied to downstream NLP tasks.   |
 | :---  | :---  |
 | Key Related Works  | 1. Attention Is All You Need ((Vaswani et al., 2017) |
 |   | 2. Deep Contextualized Word Representations ((Peters et al., 2018) |
